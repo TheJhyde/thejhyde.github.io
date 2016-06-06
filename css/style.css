@@ -1,0 +1,32 @@
+body{
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 2em;
+
+}
+
+p{
+	margin-bottom: 500px;
+	margin: 0px 100px 500px 100px;
+}
+
+
+p{
+    animation: rotate 10s infinite linear normal;
+    animation-delay: 2s;
+}
+
+@keyframes rotate{
+  0%{
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100%{
+    -ms-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
